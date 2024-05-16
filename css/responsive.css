@@ -1,0 +1,75 @@
+@media (max-width: 739px){
+    #header{
+        overflow: hidden;
+    }
+    
+    #header .mobile-menu-btn{
+        display: block;
+    }
+    
+    #header .search-button {
+        display: none;
+    }
+    
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child{
+        display: inline-block;
+    }
+
+    #nav li a{
+        padding: 1px 24px;
+    }
+
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a{
+        color: #fff;
+        padding: 3px 53px;
+    }
+
+    #content .member-item {
+        width: 100%;
+        margin-bottom: 32px;
+    }
+
+    .contact-body {
+        display: block;
+    }
+
+    .information {
+        width: 100%;
+        font-size: 15px;
+        margin-bottom: 16px;
+    }
+
+    .infor-band {
+        display: block;
+        width: 100%;
+    }
+
+    .input-your-infor {
+        display: block;
+        width: 100%;
+    }
+
+    .input-your-email {
+        display: block;
+        white-space:initial;
+    }
+
+    .common-contact{
+        display: block;
+        width: 100%;
+        margin: 16px 0px;
+    }
+}
