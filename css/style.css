@@ -43,7 +43,7 @@ html{
     display: none;
     position: absolute;
     min-width: 160px;
-    top: 100%;
+    top: 100%; /* cách phần tử cha có thuộc tính position 100% chiều cao của phần tử cha*/
     left: 0;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
